@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            BOOKING
+        </title>
+        <style>
+            body{
+                margin-top:20px;
+                background-color :lemonchiffon;
+            }
+            #d1{
+                border:solid;border-color:lemonchiffon;
+                margin:10px;
+                font-size: 18px;
+            }
+        </style>
+    </head>
+    <body>
+        <form>
+            <fieldset style="background-color: burlywood;">
+                <legend>CUSTOMER DETAILS</legend>
+                    <label for="customername">customername:<input type ="text" name="customername" id="cusname"></label>
+                    <br>
+                    <br><label for="phonenumber">phonenumber:<input type ="text" name="phonenumber" id="number"></label>
+                    <br>
+                    <br><label for="email">E-mail:<input type ="email" name="E-mail" id="email"></label>
+                    <br>
+                    <br><label for="nationality">nationality:<input type ="text" name="nationality" id="email"></label>
+                    <br>
+                    <br><label for="stay">Length of Stay:<input type ="text" name="length of stay" id="stay"></label>
+                    <br>
+                    <br><label for="arrival">Arrival Date:<input type ="text" name="arrival date" id="arrival"></label>
+                    <br>
+                   <br>
+                    <select name="class" id="class">
+                        <option value="class A">Class A</option>
+                        <option value="class B">Class B</option>
+                        <option value="class C">Class C</option>                     
+                    </select>
+            </fieldset>
+            <br>
+            <br>
+            <fieldset style="background-color: burlywood;">
+                             <legend>MOBILE-PAYMENT DETAILS</legend>
+                             <select name="MOBILE MONEY" id="mobile">
+                                <option value="Airtel">Airtel Money</option>
+                                <option value="Tnm">TNM Mpamba</option>
+                                <option value="mukuru">Mukuru</option>                     
+                            </select>                 
+                </fieldset>
+                <br>
+                <br>
+                <fieldset style="background-color: burlywood;">
+                                 <legend>BANK-PAYMENT DETAILS</legend>
+                                 <select name="Bank" id="bank">
+                                    <option value="NB">NATIONAL BANK</option>
+                                    <option value="FDH">FDH</option>
+                                    <option value="STD">STANDARD BANK</option>                     
+                                </select>                 
+                    </fieldset>
+        </form>
+        <div id="d1">
+            <p>PAYMENT DETAILS:
+            <br>
+            <br> <img src="images/airtel.png" width="30" height="30">Airtel Money....(0999625586)
+            <br><img src="images/mpamba.png" width="30" height="30">TNM Mpamba.......(0881576783)
+            <br><img src="images/fdh.jpeg" width="30" height="30">FDH..............(1600000001414)
+            <br><img src="images/nb.png" width="30" height="30">National Bank....(1400000007811)
+            <br><img src="images/std.jpeg" width="30" height="30">Standard Bank....(9100000001421) 
+        </p>
+        </div>
+        <center>
+            <form action="register.php" method="POST">
+        <input type="button" value="SUBMIT"></input>
+        <input type="button" value="RESET"></input>
+    
+    </center>
+    <p style="margin-top: 50px;margin-left: 50px;">
+        <a href="Project1.html">Return</a>
+    </p>
+
+    </body>
+</html>
